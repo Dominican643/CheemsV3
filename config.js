@@ -2,16 +2,16 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // ganti info bot dibawah ini
-global.botName = "ṡṭяѧṿѧɞȏṭẓ"
-global.ownerName = "ʟɛƈƈʏօʄƈ"
-global.ownerNumber = ["628xxxxx"] 
+global.botName = "𝙎 𝞘 𝙂 𝞖 ㋛ 𝞑 𝞗 𝙏 ...."
+global.ownerName = "𝙎 𝞘 𝙂 𝞖 ㋛ ᵍʳᵉʸ........"
+global.ownerNumber = ["2348145099774"] 
 
 global.Auto_Typing = false // auto typing
 global.Auto_Recording = false // auto recording
-global.Auto_ReadPesan = true // auto read messages
+global.Auto_ReadPesan = false // auto read messages
 
 // Auto Downloader Tiktok
-global.TiktokAutoDownload = true
+global.TiktokAutoDownload = false
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
